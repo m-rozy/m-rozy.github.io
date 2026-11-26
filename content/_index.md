@@ -126,8 +126,7 @@ sections:
     design:
       view: article-grid
       columns: 2
-
-  - block: collection
+- block: collection
     content:
       title: Recent Publications
       text: ""
@@ -136,5 +135,5 @@ sections:
           - publications
         exclude_featured: false
     design:
-      view: citation
+      view: compact
 ---
